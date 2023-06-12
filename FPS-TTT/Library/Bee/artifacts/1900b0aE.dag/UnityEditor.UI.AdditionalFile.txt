@@ -1,5 +1,1 @@
-<<<<<<< Updated upstream
-C:\Users\Ga-alfa\Documents\GitHub\FPS-TTT\FPS-TTT
-=======
-C:\Users\Ga-alfa\Documents\Unity Projects\FPS-TTT\FPS-TTT
->>>>>>> Stashed changes
+C:\Users\Gabrijel\Desktop\mape\NIOP\FPS-TTT\FPS-TTT
