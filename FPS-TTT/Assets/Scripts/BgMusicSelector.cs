@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.Audio;
 
 public class BgMusicSelector : MonoBehaviour
 {
@@ -12,15 +12,23 @@ public class BgMusicSelector : MonoBehaviour
     public AudioSource Track4;
     public AudioSource Track5;
 
+    public AudioMixer AudioMixer;
+    public float volume = -80;
+
     public int TrackSelector;
     public int TrackHistory;
-    public SettingsMenu settingsMenu;
+    public bool playBackgroudMusicGlobal = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(settingsMenu.playBackgroudMusicGlobal);
-        if (settingsMenu.playBackgroudMusicGlobal == true )
+        AudioMixer.GetFloat("BgVolume", out volume);
+        if (volume > -80)
+        {
+            playBackgroudMusicGlobal = true;
+        }
+        Debug.Log(playBackgroudMusicGlobal);
+        if (playBackgroudMusicGlobal == true )
         {
             TrackSelector = Random.Range(0, 4);
 
@@ -56,7 +64,7 @@ public class BgMusicSelector : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Track1.isPlaying == false && Track2.isPlaying == false && Track3.isPlaying == false && Track4.isPlaying == false && Track5.isPlaying == false && settingsMenu.playBackgroudMusicGlobal == true)
+        if(Track1.isPlaying == false && Track2.isPlaying == false && Track3.isPlaying == false && Track4.isPlaying == false && Track5.isPlaying == false && playBackgroudMusicGlobal == true)
         {
             TrackSelector = Random.Range(0, 4);
 
