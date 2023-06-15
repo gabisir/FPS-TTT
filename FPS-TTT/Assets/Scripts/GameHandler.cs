@@ -14,10 +14,12 @@ public class GameHandler : MonoBehaviour
 
     public GameObject TempHandler;
     public TempHandler tempHandler;
+    public GameObject CrossHair;
 
     int counter = 0;
-    bool whoIsPlaying = false; // True is X, False is O
+    bool whoIsPlaying = true; // True is X, False is O
     int squareBattle = -1;
+    bool started = false;
 
     void SetText(GameObject gameObject, string str)
     {
@@ -39,6 +41,7 @@ public class GameHandler : MonoBehaviour
         {
             array[i] = GetText(gameObjects[i]).ToCharArray()[0];
             Debug.Log(array[i]);
+            Debug.Log(GetText(gameObjects[i]).ToCharArray());
         }
         return array;
     }
@@ -110,7 +113,9 @@ public class GameHandler : MonoBehaviour
         {
             squareBattle = square;
             this.gameObject.SetActive(false);
-            TempHandler.SetActive(true);
+            CrossHair.SetActive(true);
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
         }
     }
 
@@ -129,6 +134,11 @@ public class GameHandler : MonoBehaviour
         else SetText(squares[9], "On move is: \n O");
         squares[9].GetComponentInChildren<TextMeshProUGUI>().fontSize = 32;
         this.gameObject.SetActive(true);
+        started = true;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        CrossHair.SetActive(false);
+
     }
     public void TempHideSelf()
     {
@@ -145,22 +155,25 @@ public class GameHandler : MonoBehaviour
 
     private void OnEnable()
     {
-        if (tempHandler.areYouWinningSon)
+        if (started)
         {
-            if (whoIsPlaying) SetText(squares[squareBattle], "X");
-            else SetText(squares[squareBattle], "O");
+            if (tempHandler.areYouWinningSon)
+            {
+                if (whoIsPlaying) SetText(squares[squareBattle], "X");
+                else SetText(squares[squareBattle], "O");
+            }
+            int winSection = CheckWin(GetCharArrayFromGrid(squares));
+            if (winSection > 0)
+            {
+                SetText(squares[9], $"Player {(whoIsPlaying ? 'X' : '0')} won on section {winSection}");
+            }
+            whoIsPlaying = !whoIsPlaying;
+            // Debug.Log (whoIsPlaying);
+            if (whoIsPlaying) { SetText(squares[9], "On move is: \n X"); }
+            else SetText(squares[9], "On move is: \n O");
+            //SetText(squares[counter], "test please stay " + counter.ToString() + $"(btw we: {tempHandler.areYouWinningSon}");
+            //counter++;
         }
-        int winSection = CheckWin(GetCharArrayFromGrid(squares));
-        if (winSection > 0) 
-        {
-            SetText(squares[9], $"Player {(whoIsPlaying ? 'X' : '0')} won on section {winSection}"); 
-        }
-        whoIsPlaying = !whoIsPlaying;
-        // Debug.Log (whoIsPlaying);
-        if (whoIsPlaying) { SetText(squares[9], "On move is: \n X"); }
-        else SetText(squares[9], "On move is: \n O");
-        //SetText(squares[counter], "test please stay " + counter.ToString() + $"(btw we: {tempHandler.areYouWinningSon}");
-        //counter++;
     }
 
     public void SquareOne()
