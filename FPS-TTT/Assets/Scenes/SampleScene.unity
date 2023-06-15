@@ -4808,6 +4808,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a369eaf7f96bfc64ab0934643c019188, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 --- !u!1 &685033906
 GameObject:
@@ -4969,6 +4970,8 @@ CanvasRenderer:
   m_CookingOptions: 30
   m_Mesh: {fileID: 6788383922943872000, guid: d24b1499112f2d24db614d1779377bd2, type: 3}
 >>>>>>> Stashed changes
+=======
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 =======
 >>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 --- !u!1001 &705292064

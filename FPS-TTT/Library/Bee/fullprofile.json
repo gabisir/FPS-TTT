@@ -10,6 +10,7 @@
 { "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
 { "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
 <<<<<<< HEAD
+<<<<<<< HEAD
 { "pid": 0, "tid": 1, "ts": 1686854017817709, "dur": 250703, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
 { "pid": 0, "tid": 1, "ts": 1686854017819111, "dur": 49277, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
 { "pid": 0, "tid": 1, "ts": 1686854017868608, "dur": 189857, "ph": "X", "name": "Run Backend", "args": {} },
@@ -902,6 +903,15 @@
 { "pid": 0, "tid": 1, "ts": 1686781730296631, "dur": 755, "ph": "X", "name": "ChromeTraceHeader", "args": {} },
 { "pid": 0, "tid": 1, "ts": 1686781730300192, "dur": 889, "ph": "X", "name": "", "args": {} },
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+=======
+{ "pid": 0, "tid": 1, "ts": 1686781729484841, "dur": 810342, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686781729486148, "dur": 204190, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686781729690464, "dur": 503303, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686781730193786, "dur": 101397, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686781730296631, "dur": 755, "ph": "X", "name": "ChromeTraceHeader", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686781730300192, "dur": 889, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 ,{ "pid":12345, "tid":0, "ts":1686781729722488, "dur":1257, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1686781729723756, "dur":245, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
 ,{ "pid":12345, "tid":0, "ts":1686781729724049, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
@@ -1793,6 +1803,9 @@
 ,{ "pid":12345, "tid":0, "ts":1686781729910212, "dur":2689, "ph":"X", "name": "ProfilerWriteOutput" }
 ,{ "pid": 0, "tid": 1, "ts": 1686781730301285, "dur": 2316, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
 { "pid": 0, "tid": 1, "ts": 1686781730298701, "dur": 4928, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+<<<<<<< HEAD
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
+=======
 >>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 {}
 

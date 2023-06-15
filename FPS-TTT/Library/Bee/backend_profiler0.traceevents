@@ -1,5 +1,6 @@
 { "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
 <<<<<<< HEAD
+<<<<<<< HEAD
 ,{ "pid":12345, "tid":0, "ts":1686854017918827, "dur":8990, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1686854017927826, "dur":237, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
 ,{ "pid":12345, "tid":0, "ts":1686854017928108, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
@@ -876,6 +877,8 @@
 ,{ "pid":12345, "tid":8, "ts":1686854018033764, "dur":71, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1686854018036974, "dur":2709, "ph":"X", "name": "ProfilerWriteOutput" }
 =======
+=======
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 ,{ "pid":12345, "tid":0, "ts":1686781729722488, "dur":1257, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1686781729723756, "dur":245, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
 ,{ "pid":12345, "tid":0, "ts":1686781729724049, "dur":21, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
@@ -1765,5 +1768,8 @@
 ,{ "pid":12345, "tid":8, "ts":1686781729758813, "dur":471, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":8, "ts":1686781729759285, "dur":147393, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
 ,{ "pid":12345, "tid":0, "ts":1686781729910212, "dur":2689, "ph":"X", "name": "ProfilerWriteOutput" }
+<<<<<<< HEAD
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
+=======
 >>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 ,

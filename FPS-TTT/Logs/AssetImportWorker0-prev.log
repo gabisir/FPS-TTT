@@ -16,7 +16,11 @@ C:/Users/erikb/Documents/GitHub/FPS-TTT/FPS-TTT
 Logs/AssetImportWorker0.log
 -srvPort
 <<<<<<< HEAD
+<<<<<<< HEAD
 49519
+=======
+50253
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 =======
 50253
 >>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
@@ -52,11 +56,19 @@ C:/Users/erikb/Documents/GitHub/FPS-TTT/FPS-TTT
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
 <<<<<<< HEAD
+<<<<<<< HEAD
 Player connection [15908] Host "[IP] 172.26.64.1 [Port] 0 [Flags] 2 [Guid] 222641566 [EditorId] 222641566 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EQLG6UA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [15908] Host "[IP] 172.26.64.1 [Port] 0 [Flags] 2 [Guid] 222641566 [EditorId] 222641566 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EQLG6UA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Refreshing native plugins compatible for Editor in 89.36 ms, found 3 plugins.
+=======
+Player connection [7408] Host "[IP] 192.168.0.149 [Port] 0 [Flags] 2 [Guid] 2733253111 [EditorId] 2733253111 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EQLG6UA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [7408] Host "[IP] 192.168.0.149 [Port] 0 [Flags] 2 [Guid] 2733253111 [EditorId] 2733253111 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EQLG6UA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 76.18 ms, found 3 plugins.
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 =======
 Player connection [7408] Host "[IP] 192.168.0.149 [Port] 0 [Flags] 2 [Guid] 2733253111 [EditorId] 2733253111 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-EQLG6UA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
@@ -80,7 +92,11 @@ Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Manage
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
 <<<<<<< HEAD
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56292
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 =======
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56876
 >>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
@@ -88,6 +104,7 @@ Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< HEAD
 <<<<<<< HEAD
 Registered in 0.009913 seconds.
 Native extension for WindowsStandalone target not found
@@ -113,11 +130,25 @@ Domain Reload Profiling:
 	ReloadAssembly (861ms)
 		BeginReloadAssembly (82ms)
 >>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
+=======
+Registered in 0.010649 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 217 ms
+Refreshing native plugins compatible for Editor in 73.99 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.860 seconds
+Domain Reload Profiling:
+	ReloadAssembly (861ms)
+		BeginReloadAssembly (82ms)
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 		EndReloadAssembly (775ms)
 			LoadAssemblies (91ms)
@@ -149,6 +180,22 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (82ms)
 				ProcessInitializeOnLoadMethodAttributes (43ms)
 >>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
+=======
+		EndReloadAssembly (677ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (101ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (493ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (292ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (74ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (82ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -156,7 +203,11 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
 <<<<<<< HEAD
+<<<<<<< HEAD
 Registered in 0.006537 seconds.
+=======
+Registered in 0.005470 seconds.
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 =======
 Registered in 0.005470 seconds.
 >>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
@@ -165,6 +216,7 @@ Symbol file LoadedFromMemory doesn't match image C:\Users\erikb\Documents\GitHub
 Symbol file LoadedFromMemory doesn't match image C:\Users\erikb\Documents\GitHub\FPS-TTT\FPS-TTT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
+<<<<<<< HEAD
 <<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -194,6 +246,8 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (11ms)
 =======
+=======
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -221,6 +275,9 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (186ms)
 				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (9ms)
+<<<<<<< HEAD
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
+=======
 >>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -229,6 +286,7 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+<<<<<<< HEAD
 <<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -798,12 +856,17 @@ Unloading 17 unused Assets / (80.6 KB). Loaded Objects now: 3569.
 Memory consumption went from 120.8 MB to 120.7 MB.
 Total: 5.818300 ms (FindLiveObjects: 0.320400 ms CreateObjectMapping: 0.207400 ms MarkObjects: 5.111200 ms  DeleteObjects: 0.177600 ms)
 =======
+=======
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3046 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 24 unused Assets / (113.8 KB). Loaded Objects now: 3524.
 Memory consumption went from 119.7 MB to 119.6 MB.
 Total: 3.722400 ms (FindLiveObjects: 0.249900 ms CreateObjectMapping: 0.214800 ms MarkObjects: 3.111800 ms  DeleteObjects: 0.144900 ms)
+<<<<<<< HEAD
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
+=======
 >>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -817,6 +880,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< HEAD
 <<<<<<< HEAD
 Received Prepare
 Registering precompiled user dll's ...
@@ -879,6 +943,8 @@ Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.006194 seconds.
 =======
+=======
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 Received Import Request.
   Time since last request: 1897.600221 seconds.
   path: Assets/Backgroud Music
@@ -918,12 +984,16 @@ Start importing Assets/Backgroud Music/Đurđevdan je.mp3 using Guid(5da6c73f62b
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.007685 seconds.
+<<<<<<< HEAD
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
+=======
 >>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\erikb\Documents\GitHub\FPS-TTT\FPS-TTT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\erikb\Documents\GitHub\FPS-TTT\FPS-TTT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
+<<<<<<< HEAD
 <<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.87 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -1104,6 +1174,8 @@ Domain Reload Profiling:
 	ReloadAssembly (1319ms)
 		BeginReloadAssembly (176ms)
 =======
+=======
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 Refreshing native plugins compatible for Editor in 0.92 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -1111,11 +1183,15 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1440ms)
 		BeginReloadAssembly (274ms)
+<<<<<<< HEAD
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
+=======
 >>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 			CreateAndSetChildDomain (38ms)
 		EndReloadAssembly (1028ms)
@@ -1134,6 +1210,8 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (11ms)
 =======
+=======
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 			CreateAndSetChildDomain (58ms)
 		EndReloadAssembly (964ms)
 			LoadAssemblies (187ms)
@@ -1213,11 +1291,15 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (186ms)
 				ProcessInitializeOnLoadMethodAttributes (17ms)
 				AfterProcessingInitializeOnLoad (9ms)
+<<<<<<< HEAD
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
+=======
 >>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
+<<<<<<< HEAD
 <<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 2.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -1226,6 +1308,8 @@ Unloading 17 unused Assets / (80.5 KB). Loaded Objects now: 3584.
 Memory consumption went from 120.8 MB to 120.7 MB.
 Total: 3.239700 ms (FindLiveObjects: 0.245300 ms CreateObjectMapping: 0.159500 ms MarkObjects: 2.732500 ms  DeleteObjects: 0.101300 ms)
 =======
+=======
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 Refreshing native plugins compatible for Editor in 1.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3042 Unused Serialized files (Serialized files now loaded: 0)
@@ -1529,6 +1613,9 @@ Unloading 3042 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 17 unused Assets / (80.3 KB). Loaded Objects now: 3550.
 Memory consumption went from 124.1 MB to 124.0 MB.
 Total: 3.801300 ms (FindLiveObjects: 0.393400 ms CreateObjectMapping: 0.214700 ms MarkObjects: 3.080000 ms  DeleteObjects: 0.112100 ms)
+<<<<<<< HEAD
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
+=======
 >>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -1545,8 +1632,11 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Registering precompiled user dll's ...
 <<<<<<< HEAD
+<<<<<<< HEAD
 Registered in 0.006077 seconds.
 =======
+=======
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 Registered in 0.005393 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\erikb\Documents\GitHub\FPS-TTT\FPS-TTT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -2028,6 +2118,9 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.005467 seconds.
+<<<<<<< HEAD
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
+=======
 >>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\erikb\Documents\GitHub\FPS-TTT\FPS-TTT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -2037,6 +2130,7 @@ Native extension for Android target not found
 Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 <<<<<<< HEAD
 - Completed reload, in  1.440 seconds
 Domain Reload Profiling:
@@ -2118,6 +2212,8 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (92ms)
 				ProcessInitializeOnLoadAttributes (204ms)
 =======
+=======
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 - Completed reload, in  1.023 seconds
 Domain Reload Profiling:
 	ReloadAssembly (1024ms)
@@ -2140,11 +2236,15 @@ Domain Reload Profiling:
 				RefreshPlugins (1ms)
 				BeforeProcessingInitializeOnLoad (71ms)
 				ProcessInitializeOnLoadAttributes (186ms)
+<<<<<<< HEAD
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
+=======
 >>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (10ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
@@ -2212,6 +2312,8 @@ Unloading 17 unused Assets / (80.6 KB). Loaded Objects now: 3593.
 Memory consumption went from 120.8 MB to 120.7 MB.
 Total: 4.598800 ms (FindLiveObjects: 0.320600 ms CreateObjectMapping: 0.349300 ms MarkObjects: 3.639900 ms  DeleteObjects: 0.286800 ms)
 =======
+=======
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 2.25 ms, found 3 plugins.
@@ -2220,6 +2322,9 @@ Unloading 3042 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 17 unused Assets / (80.2 KB). Loaded Objects now: 3577.
 Memory consumption went from 124.2 MB to 124.1 MB.
 Total: 2.914200 ms (FindLiveObjects: 0.256800 ms CreateObjectMapping: 0.242300 ms MarkObjects: 2.330500 ms  DeleteObjects: 0.083100 ms)
+<<<<<<< HEAD
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
+=======
 >>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -2235,6 +2340,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Import Request.
 <<<<<<< HEAD
+<<<<<<< HEAD
   Time since last request: 631.579478 seconds.
   path: Assets/Scenes/SampleScene.unity
   artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -2244,6 +2350,8 @@ Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.007046 seconds.
 =======
+=======
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
   Time since last request: 130.458067 seconds.
   path: Assets/Scenes
   artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -2264,12 +2372,16 @@ Start importing Assets/Scenes/Menu.unity using Guid(ece1a69c78ac874478e576d8fa22
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.007463 seconds.
+<<<<<<< HEAD
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
+=======
 >>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\erikb\Documents\GitHub\FPS-TTT\FPS-TTT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\erikb\Documents\GitHub\FPS-TTT\FPS-TTT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
+<<<<<<< HEAD
 <<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -2299,6 +2411,8 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (11ms)
 =======
+=======
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 Refreshing native plugins compatible for Editor in 0.48 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -2326,11 +2440,15 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (196ms)
 				ProcessInitializeOnLoadMethodAttributes (22ms)
 				AfterProcessingInitializeOnLoad (12ms)
+<<<<<<< HEAD
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
+=======
 >>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
+<<<<<<< HEAD
 <<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -2339,12 +2457,17 @@ Unloading 17 unused Assets / (80.5 KB). Loaded Objects now: 3596.
 Memory consumption went from 120.8 MB to 120.8 MB.
 Total: 3.285900 ms (FindLiveObjects: 0.251800 ms CreateObjectMapping: 0.163100 ms MarkObjects: 2.764700 ms  DeleteObjects: 0.105400 ms)
 =======
+=======
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 Refreshing native plugins compatible for Editor in 2.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3055 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 30 unused Assets / (0.7 MB). Loaded Objects now: 3580.
 Memory consumption went from 126.3 MB to 125.6 MB.
 Total: 3.124800 ms (FindLiveObjects: 0.249100 ms CreateObjectMapping: 0.179100 ms MarkObjects: 2.353700 ms  DeleteObjects: 0.341900 ms)
+<<<<<<< HEAD
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
+=======
 >>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -2361,8 +2484,11 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Registering precompiled user dll's ...
 <<<<<<< HEAD
+<<<<<<< HEAD
 Registered in 0.005893 seconds.
 =======
+=======
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 Registered in 0.005336 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\erikb\Documents\GitHub\FPS-TTT\FPS-TTT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -3393,6 +3519,9 @@ AssetImportParameters requested are different than current active one (requested
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.004970 seconds.
+<<<<<<< HEAD
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
+=======
 >>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\erikb\Documents\GitHub\FPS-TTT\FPS-TTT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -3403,11 +3532,14 @@ Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Completed reload, in  1.093 seconds
 Domain Reload Profiling:
 	ReloadAssembly (1093ms)
 		BeginReloadAssembly (161ms)
 =======
+=======
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 - Completed reload, in  1.018 seconds
 Domain Reload Profiling:
 	ReloadAssembly (1018ms)
@@ -3526,11 +3658,15 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1031ms)
 		BeginReloadAssembly (145ms)
+<<<<<<< HEAD
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
+=======
 >>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 			CreateAndSetChildDomain (36ms)
 		EndReloadAssembly (816ms)
@@ -3673,6 +3809,8 @@ Unloading 17 unused Assets / (80.6 KB). Loaded Objects now: 3605.
 Memory consumption went from 120.9 MB to 120.8 MB.
 Total: 4.012500 ms (FindLiveObjects: 0.300000 ms CreateObjectMapping: 0.219700 ms MarkObjects: 3.376900 ms  DeleteObjects: 0.114700 ms)
 =======
+=======
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 			CreateAndSetChildDomain (31ms)
 		EndReloadAssembly (782ms)
 			LoadAssemblies (95ms)
@@ -3699,6 +3837,9 @@ Unloading 3057 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 30 unused Assets / (0.7 MB). Loaded Objects now: 3643.
 Memory consumption went from 126.6 MB to 125.9 MB.
 Total: 2.947500 ms (FindLiveObjects: 0.241900 ms CreateObjectMapping: 0.136600 ms MarkObjects: 2.230400 ms  DeleteObjects: 0.337700 ms)
+<<<<<<< HEAD
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
+=======
 >>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -3713,10 +3854,13 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 <<<<<<< HEAD
+<<<<<<< HEAD
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.006175 seconds.
 =======
+=======
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 Received Import Request.
   Time since last request: 561.870559 seconds.
   path: Assets/Scripts/BgMusicSelector.cs
@@ -3726,12 +3870,16 @@ Start importing Assets/Scripts/BgMusicSelector.cs using Guid(67c32ed7b89a1974c81
 Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.005816 seconds.
+<<<<<<< HEAD
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
+=======
 >>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\erikb\Documents\GitHub\FPS-TTT\FPS-TTT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\erikb\Documents\GitHub\FPS-TTT\FPS-TTT\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
+<<<<<<< HEAD
 <<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
@@ -3741,6 +3889,8 @@ Domain Reload Profiling:
 	ReloadAssembly (1284ms)
 		BeginReloadAssembly (149ms)
 =======
+=======
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 Refreshing native plugins compatible for Editor in 0.47 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -3748,12 +3898,16 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (929ms)
 		BeginReloadAssembly (140ms)
+<<<<<<< HEAD
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
+=======
 >>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (30ms)
+<<<<<<< HEAD
 <<<<<<< HEAD
 		EndReloadAssembly (1020ms)
 			LoadAssemblies (102ms)
@@ -3781,6 +3935,8 @@ Unloading 17 unused Assets / (80.7 KB). Loaded Objects now: 3608.
 Memory consumption went from 120.9 MB to 120.8 MB.
 Total: 3.999700 ms (FindLiveObjects: 0.290800 ms CreateObjectMapping: 0.187300 ms MarkObjects: 3.387800 ms  DeleteObjects: 0.132300 ms)
 =======
+=======
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 		EndReloadAssembly (681ms)
 			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -3806,6 +3962,9 @@ Unloading 3057 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 30 unused Assets / (0.7 MB). Loaded Objects now: 3646.
 Memory consumption went from 126.5 MB to 125.8 MB.
 Total: 3.069400 ms (FindLiveObjects: 0.263900 ms CreateObjectMapping: 0.194000 ms MarkObjects: 2.263200 ms  DeleteObjects: 0.347600 ms)
+<<<<<<< HEAD
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
+=======
 >>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -3819,6 +3978,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+<<<<<<< HEAD
 <<<<<<< HEAD
 Received Prepare
 Registering precompiled user dll's ...
@@ -3877,6 +4037,8 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 =======
+=======
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
 Received Import Request.
   Time since last request: 231.443256 seconds.
   path: Assets/Scripts/BgMusicSelector.cs
@@ -3900,4 +4062,7 @@ Received Import Request.
   path: Assets/Mixer.mixer
   artifactKey: Guid(703f9d999089ac2479df44649c445f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Mixer.mixer using Guid(703f9d999089ac2479df44649c445f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19126bae93a541a4124ab8f5e474f06e') in 0.010746 seconds 
+<<<<<<< HEAD
+>>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
+=======
 >>>>>>> parent of fe5dba1 (Did some work on the game part, we now have OnClick methods for all buttons, switching views, and also some checks that squares cannot be beaten again)
