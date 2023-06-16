@@ -12,7 +12,7 @@ public class Projectile : MonoBehaviour
 
         if (damageReceiver != null)
         {
-            damageReceiver.TakeDamage(damageAmount);  // Call the TakeDamage() method on the damaged object
+            //damageReceiver.TakeDamage(damageAmount);  // Call the TakeDamage() method on the damaged object
             Destroy(gameObject);  // Destroy the projectile after hitting the object
         }
     }
