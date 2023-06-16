@@ -35,13 +35,14 @@ public class GameHandler : MonoBehaviour
 
     char[] GetCharArrayFromGrid(GameObject[] gameObjects)
     {
-        Debug.Log(gameObjects.Length - 1);
-        char[] array = new char[gameObjects.Length - 1];
-        for (int i = 0; i < gameObjects.Length - 1; i++)
+        char[] array = new char[gameObjects.Length];
+        array[0] = 'K';
+        for (int i = 1; i < gameObjects.Length; i++)
         {
-            array[i] = GetText(gameObjects[i]).ToCharArray()[0];
+            Debug.Log(i);
+            if(GetText(gameObjects[i - 1]) == "") array[i] = 'N';
+            else array[i] = GetText(gameObjects[i - 1]).ToCharArray()[0];
             Debug.Log(array[i]);
-            Debug.Log(GetText(gameObjects[i]).ToCharArray());
         }
         return array;
     }
@@ -114,8 +115,9 @@ public class GameHandler : MonoBehaviour
             squareBattle = square;
             this.gameObject.SetActive(false);
             CrossHair.SetActive(true);
-            Cursor.lockState = CursorLockMode.Locked;
-            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+            TempHandler.SetActive(true);
         }
     }
 

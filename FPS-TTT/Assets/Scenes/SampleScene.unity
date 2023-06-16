@@ -16047,3 +16047,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gunData: {fileID: 11400000, guid: d5bd974bd415f064f8f7e71afad4d555, type: 2}
   cam: {fileID: 1095017851}
+  Game: {fileID: 502071665}

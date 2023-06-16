@@ -8,6 +8,7 @@ public class PlayerShoot : MonoBehaviour {
     public static Action shootInput;
     public static Action reloadInput;
 
+
     [SerializeField] private KeyCode reloadKey = KeyCode.R;
 
     private void Update()
